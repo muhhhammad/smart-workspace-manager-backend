@@ -12,9 +12,9 @@ import java.util.Optional;
 @EnableJpaAuditing
 public class JpaConfig {
 
-//    @Bean
-//    public AuditorAware<String> auditorProvider() {
-//        return () -> Optional.ofNullable(SecurityContextHolder.getContext().getAuthentication().getName());
-//    }
+    @Bean
+    public AuditorAware<String> auditorProvider() {
+        return () -> Optional.ofNullable(SecurityContextHolder.getContext().getAuthentication().getName());
+    }
 
 }

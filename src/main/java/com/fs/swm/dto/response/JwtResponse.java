@@ -1,4 +1,4 @@
-package com.fs.swm.response;
+package com.fs.swm.dto.response;
 
 import lombok.Data;
 
